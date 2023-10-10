@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { Layout, Button, Badge } from 'antd'
-import { UserOutlined, DashboardOutlined, AppstoreAddOutlined, BellOutlined, LogoutOutlined } from '@ant-design/icons'
+import { BellOutlined, LogoutOutlined } from '@ant-design/icons'
 
 const { Header } = Layout
 
