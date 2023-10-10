@@ -9,9 +9,9 @@ const Dashboard: FC = () => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Sidebar />
-      <Layout>
+      <Layout style={{ background: "#FFFFFF" }}>
         <Navbar />
-        <Content style={{ padding: '24px' }}>{'children'}</Content>
+        <Content style={{ padding: '24px' }}>{'Dashboard'}</Content>
       </Layout>
     </Layout>
   )
