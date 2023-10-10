@@ -20,15 +20,14 @@ const Sidebar: FC = () => {
     <Sider
       width={200}
       theme="light" // Set sidebar theme to light
-      style={{ boxShadow: '2px 0px 10px rgba(0, 0, 0, 0.1)', right: '5px', borderRadius: '11px' }} // Add shadow to the sidebar
+      style={{ boxShadow: '2px 0px 10px rgba(0, 0, 0, 0.1)', right: '5px', borderRadius: '11px', marginLeft: '-25px' }} // Add shadow to the sidebar
     >
-      
       <div
         style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          marginTop: "8px"
+          marginTop: '8px',
         }}
       >
         <div className="dash-logo">
