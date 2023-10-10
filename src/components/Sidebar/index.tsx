@@ -22,6 +22,7 @@ const Sidebar: FC = () => {
       theme="light" // Set sidebar theme to light
       style={{ boxShadow: '2px 0px 10px rgba(0, 0, 0, 0.1)', right: '5px', borderRadius: '11px' }} // Add shadow to the sidebar
     >
+      
       <div
         style={{
           display: 'flex',
