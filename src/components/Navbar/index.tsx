@@ -1,10 +1,32 @@
 import { FC } from 'react'
-import { Layout } from 'antd'
+import { Layout, Button, Badge } from 'antd'
+import { UserOutlined, DashboardOutlined, AppstoreAddOutlined, BellOutlined, LogoutOutlined } from '@ant-design/icons'
 
 const { Header } = Layout
 
 const Navbar: FC = () => {
-  return <Header style={{ background: '#fff', padding: 0 }}>Fixed Dashboard</Header>
+  return (
+    <Header
+      style={{
+        background: '#fff',
+        padding: '0 16px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+      }}
+    >
+      <div></div>
+      <div>
+        <Badge count={5} style={{ marginRight: '16px' }}>
+          <Button type="text" icon={<BellOutlined />} />
+        </Badge>
+        <Button type="text">
+          Logout
+          <LogoutOutlined />
+        </Button>
+      </div>
+    </Header>
+  )
 }
 
 export default Navbar
