@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from 'views/Login'
 import Dashboard from 'views/Dashboard'
-import { PrivateRoute } from 'routes/PrivateRoute'
+// import { PrivateRoute } from 'routes/PrivateRoute'
 import { LOGIN_ROUTE, DASHBORD_ROUTE } from 'constants/routes'
 
 class App extends Component {
