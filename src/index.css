@@ -1,0 +1,9 @@
+.dash-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 13px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   margin-left: 22px;
+}

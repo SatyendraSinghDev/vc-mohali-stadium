@@ -5,8 +5,12 @@ const { Sider } = Layout
 
 const Sidebar: FC = () => {
   return (
-    <Sider width={200} theme="dark">
-      <Menu theme="dark" mode="vertical" defaultSelectedKeys={['1']}>
+    <Sider width={200} theme="light">
+      <div className="dash-logo">
+        <img src="./images/dash-logo.png" alt="logo-dash" />
+        <h2>DDS</h2>
+      </div>
+      <Menu theme="light" mode="vertical" defaultSelectedKeys={['1']}>
         <Menu.Item key="1" icon={<DashboardOutlined />}>
           Dashboard
         </Menu.Item>
