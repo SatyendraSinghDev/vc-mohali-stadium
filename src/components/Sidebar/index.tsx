@@ -5,8 +5,8 @@ const { Sider } = Layout
 
 const Sidebar: FC = () => {
   return (
-    <Sider width={200} theme="dark">
-      <Menu theme="dark" mode="vertical" defaultSelectedKeys={['1']}>
+    <Sider width={200} theme="light">
+      <Menu theme="light" mode="vertical" defaultSelectedKeys={['1']}>
         <Menu.Item key="1" icon={<DashboardOutlined />}>
           Dashboard
         </Menu.Item>
